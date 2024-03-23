@@ -1,0 +1,311 @@
+*{
+    padding: 0px ;
+    margin: 0px  ;
+}
+
+body{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    font-family: 'Bitter', serif;
+}
+
+a, a:hover{
+    text-decoration: none ;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bitter', serif;
+}
+
+
+.header{
+    width: 100% ;
+    padding: 10px ;
+    position: relative;
+}
+.header .navbar-toggler{
+    background: #08c ;
+    border-radius: 0px ;
+               
+}
+.header .navbar-toggler .fa-bars{
+    background: #00C5E1 ;
+
+}
+.header .navbar-nav .nav-link.active{
+    color: #00C5E1;
+}
+.header .nav-link{
+    color: #fff;
+    margin: 0px 50px 0px 0px ;
+    font-weight: 600 ;
+}
+.header .nav-link:hover{
+   color: #00C5E1;
+}
+.banner{
+    width: 100%;
+    padding: 250px 0px  ;
+    background: url(../images/banner.png) center top no-repeat ;
+    background-size: cover ;
+    z-index: 1;
+    margin: -150px 0px 0px 0px ;
+}
+.banner h1{
+    color: #fff;
+    font-weight: 600 ;
+    line-height: 1.3em ;
+}
+.banner h4{
+    color: #fff;
+    font-size: 20px ;
+    letter-spacing: 4px ;
+    font-weight: 400 ;
+}
+.banner p{
+    color: #fff;
+    font-size: 14px ;
+}
+.classes{
+    width: 100% ;
+    text-align: center ;
+}
+.classes .title{
+    padding: 50px 0px ;
+}
+.classes h1{
+    font-size: 32px ;
+    letter-spacing: 2px ;
+    text-transform: uppercase ;
+}
+.classes h1 span{
+    color: #000;
+    font-weight: 700 ;
+}
+.classes h4{
+    font-weight: 700 ;
+    font-size: 22px ;
+    padding: 10px 0px ;
+    text-transform: uppercase ;
+}
+.classes p{
+    font-size: 14px ;
+    font-weight: 500 ;
+}
+.rock{
+    width: 100% ;
+    padding: 60px 0px 70px 0px ;
+}
+.rock h1{
+    font-size: 32px ;
+    font-weight:700 ;
+    text-transform: uppercase ;
+}
+.rock h4{
+    font-weight: 700 ;
+    font-size: 22px ;
+    padding: 10px 0px ;
+    text-transform: uppercase ;
+}
+.rock p{
+    font-size: 14px ;
+    font-weight: 500 ;
+}
+.rock h5{
+    font-size: 16px ;
+    font-weight: 500 ;
+    padding: 5px 0px ;
+}
+.about{
+    width: 100% ;
+    height: 100vh ;
+    padding: 250px 0px 0px 0px ;
+    background: url(../images/a.png) center top no-repeat;
+    background-size: cover ;
+}
+.about h1{
+    font-size: 32px ;
+    font-weight:700 ;
+    text-transform: uppercase ;
+    color: #fff;
+}
+.about p{
+    color: #fff;
+    font-size: 20px ;
+    font-weight: 500 ;
+    letter-spacing: 2px  ;
+    text-transform: uppercase ;
+}
+.about .btn-primary{
+    padding: 5px 20px ;
+    background: #08c;
+
+}
+.about .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #08c;
+    font-weight: 600 ;
+    
+}
+.recover{
+    width: 100% ;
+    padding: 20px 0px 50px 0px ;
+}
+.recover .title{
+    text-align: center ;
+    padding: 30px 0px 50px 0px ;
+}
+.recover .title h1{
+    font-size: 32px ;
+    font-weight:500 ;
+    text-transform: uppercase ;
+    color: #000;
+}
+.recover p{
+    margin-top: 25px;
+    font-size: 14px ;
+    font-weight: 500 ;
+}
+.recover img{
+    padding: 0px 0px 40px 0px ;
+}
+.nature{
+    width: 100% ;
+    background: url(../images/n.png) center top no-repeat ;
+    background-size: cover ;
+    height: 100vh ;
+    padding: 100px 0px ;
+}
+.nature h4{
+    color: #fd5f00;
+    font-size: 32px ;
+}
+.nature h5{
+    color: #fff;
+    font-size: 22px ;
+    text-transform: uppercase ;
+    letter-spacing: 2px ;
+    margin-top: 20px ;
+}
+.nature p{
+    color: #fff;
+}
+.places{
+    width: 100% ;
+    padding: 40px 0px 60px 0px ;
+    text-align: center ;
+}
+.places h1{
+    font-size: 32px ;
+    font-weight:600 ;
+    text-transform: uppercase ;
+    color: #000;
+    margin-bottom: 50px ;
+    
+}
+.places h3{
+    font-size: 22px ;
+    margin: 20px 0px ;
+    font-weight: 700 ;
+}
+.places h5{
+    font-size: 18px ;
+    color: #000;
+    font-weight: 700 ;
+}
+.places .btn-primary{
+    margin: 70px 0px 0px 0px ;
+    padding: 5px 20px ;
+    background: #08c;
+    border-radius: 0px ;
+}
+.places .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #08c;
+    font-weight: 600 ;
+    color: #000;
+    
+}
+
+.ice{
+    width: 100% ;
+    padding: 60px 0px 70px 0px ;
+    background: #000 ;
+}
+.ice h1{
+    font-size: 32px ;
+    font-weight:700 ;
+    text-transform: uppercase ;
+    color: #fff;
+}
+.ice h4{
+    font-weight: 700 ;
+    font-size: 22px ;
+    padding: 10px 0px ;
+    text-transform: uppercase ;
+    color: #fff;
+}
+.ice p{
+    font-size: 14px ;
+    font-weight: 500 ;
+    color: #fff;
+}
+.ice h5{
+    font-size: 16px ;
+    font-weight: 500 ;
+    color: #fff;
+}
+.keep{
+    width: 100% ;
+    padding:150px 0px ;
+    background: url(../images/a.png) center top no-repeat ;
+    background-size: cover ;
+    text-align: center ;
+}
+.keep h1{
+    font-size: 32px ;
+    font-weight:600;
+    text-transform: uppercase ;
+    color: #fff;
+}
+.footer{
+    width: 100% ;
+    padding: 60px 0px ;
+
+}
+.footer h1{
+    font-size: 32px ;
+    font-weight:600;
+    text-transform: uppercase ;
+}
+.footer p{
+    font-size: 14px ;
+    font-weight: 500 ;
+    margin: 20px 0px ;
+}
+
+.footer ul{
+    padding: 0px ;
+}
+.footer ul li{
+    list-style: none ;
+    font-size: 18px ;
+    font-weight: 500 ;
+    text-transform: capitalize ;
+}
+.footer .active{
+    font-size: 22px ;
+    font-weight: 700 ;
+    text-transform: uppercase ;
+}
+.footer-low{
+    width: 100% ;
+    padding: 20px 0px ;
+    text-align: center ;
+    background: #00C5E1;
+}
+.footer-low p{
+    font-size: 18px ;
+    font-weight: 500 ;
+    margin-top: 10px ;
+}
